@@ -102,6 +102,7 @@ if (request.getParameter("Guardar") != null)
 		
 	<div>
 		<p>
+			<label>Cambio</label> 
 			<label for="nom">Nom:</label> 
 			<input type="text" id="nom" name="nom" value="<%= nom %>"><span style="color:#ff0000"><%= errorNom %></span>
 		</p>
